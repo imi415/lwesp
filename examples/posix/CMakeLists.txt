@@ -1,0 +1,13 @@
+cmake_minimum_required(VERSION 3.10)
+
+project(lwesp_examples)
+
+add_subdirectory(access_point_rtos)
+add_subdirectory(client_rtos)
+add_subdirectory(dns_rtos)
+add_subdirectory(mqtt_client_api_rtos)
+add_subdirectory(mqtt_client_rtos)
+add_subdirectory(netconn_client_rtos)
+add_subdirectory(netconn_server_rtos)
+add_subdirectory(server_rtos)
+add_subdirectory(sntp_rtos)
